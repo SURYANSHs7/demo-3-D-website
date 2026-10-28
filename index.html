@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vanta Ember High</title>
+  <meta name="description" content="Vanta Ember High: full-grain leather high-top in varsity red, bone and black.">
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-brand">Vanta</div>
+    <div class="loader-track"><div id="loader-bar"></div></div>
+    <div id="loader-percent">0%</div>
+  </div>
+
+  <!-- 2. Header -->
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Vanta home">Vanta</a>
+    <nav aria-label="Primary">
+      <a href="#features" data-jump="0.20">Details</a>
+      <a href="#specs" data-jump="0.60">Specs</a>
+      <a href="#gallery" data-jump="0.80">Views</a>
+      <a class="nav-buy" href="#buy" data-jump="0.97">Buy $180</a>
+    </nav>
+  </header>
+
+  <!-- 3. Hero -->
+  <section class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hero-kicker">Model 01, high-top</p>
+      <h1 class="hero-heading" aria-label="Ember High">
+        <span class="word"><span>Ember</span></span>
+        <span class="word"><span>High</span></span>
+      </h1>
+      <p class="hero-tagline">Tumbled leather in varsity red, bone and black. Cut high, built to be worn every day.</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <svg width="14" height="22" viewBox="0 0 14 22" fill="none"><path d="M7 1v19M1 14l6 6 6-6" stroke="currentColor" stroke-width="1.5"/></svg>
+    </div>
+  </section>
+
+  <!-- 4. Canvas -->
+  <div class="canvas-wrap"><canvas id="canvas"></canvas></div>
+
+  <!-- 5. Dark overlay -->
+  <div id="dark-overlay" aria-hidden="true"></div>
+
+  <!-- 6. Marquee -->
+  <div class="marquee-wrap" data-scroll-speed="-28" data-enter="36" data-leave="56" aria-hidden="true">
+    <div class="marquee-text">Built for the court. Worn for the city. Built for the court. Worn for the city.</div>
+  </div>
+
+  <!-- 7. Scroll container -->
+  <main id="scroll-container">
+
+    <section class="scroll-section section-content align-left" id="features"
+             data-enter="18" data-leave="30" data-animation="slide-left">
+      <div class="section-inner">
+        <span class="section-label">Midsole</span>
+        <h2 class="section-heading">Cushioning sealed in the heel</h2>
+        <p class="section-body">A pressurized air unit sits inside the bone-white cupsole, so each landing is absorbed under the heel instead of in your knees.</p>
+      </div>
+    </section>
+
+    <section class="scroll-section section-content align-right"
+             data-enter="30" data-leave="41" data-animation="slide-right">
+      <div class="section-inner">
+        <span class="section-label">Upper</span>
+        <h2 class="section-heading">Full-grain leather that softens with you</h2>
+        <p class="section-body">Tumbled cowhide panels in two colors, stitched rather than glued. It starts structured and breaks in around your foot over the first few weeks.</p>
+      </div>
+    </section>
+
+    <section class="scroll-section section-content align-left"
+             data-enter="41" data-leave="52" data-animation="clip-reveal">
+      <div class="section-inner">
+        <span class="section-label">Collar</span>
+        <h2 class="section-heading">A high collar that holds the ankle</h2>
+        <p class="section-body">Foam-padded black leather wraps above the ankle bone, and seven eyelets let you lace it as tight or as loose as the day calls for.</p>
+      </div>
+    </section>
+
+    <section class="scroll-section section-stats" id="specs"
+             data-enter="54" data-leave="67" data-animation="stagger-up">
+      <h2 class="stats-heading">The numbers</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-value"><span class="stat-number" data-value="410" data-decimals="0">0</span><span class="stat-suffix">g</span></span>
+          <span class="stat-label">Weight, men's US 9</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value"><span class="stat-number" data-value="100" data-decimals="0">0</span><span class="stat-suffix">%</span></span>
+          <span class="stat-label">Leather upper</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value"><span class="stat-number" data-value="7" data-decimals="0">0</span></span>
+          <span class="stat-label">Eyelets per side</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value"><span class="stat-number" data-value="2.5" data-decimals="1">0</span><span class="stat-suffix">cm</span></span>
+          <span class="stat-label">Heel stack height</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scroll-section section-content align-right"
+             data-enter="67" data-leave="77" data-animation="scale-up">
+      <div class="section-inner">
+        <span class="section-label">Outsole</span>
+        <h2 class="section-heading">Grip that turns when you do</h2>
+        <p class="section-body">A solid rubber outsole with a circular pivot point under the ball of the foot. It grips on hardwood and wears slowly on concrete.</p>
+      </div>
+    </section>
+
+    <section class="scroll-section section-gallery" id="gallery"
+             data-enter="78" data-leave="88" data-animation="rotate-in">
+      <figure class="gallery-item">
+        <img src="assets/side.jpg" alt="Ember High pair seen from the side, red leather overlays on a bone-white base" width="1000" height="600">
+        <figcaption>Side profile</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="assets/top.jpg" alt="Ember High pair seen from above, black laces running down a white tongue" width="640" height="700">
+        <figcaption>From above</figcaption>
+      </figure>
+    </section>
+
+    <section class="scroll-section section-cta align-left" id="buy"
+             data-enter="89" data-leave="100" data-animation="fade-up" data-persist="true">
+      <div class="section-inner">
+        <span class="section-label">Ember High, men's sizes</span>
+        <h2 class="section-heading cta-heading">$180</h2>
+        <p class="section-body">Free shipping and free returns for 30 days.</p>
+        <div class="size-picker section-note" role="radiogroup" aria-label="Choose a size (US)">
+          <button type="button" role="radio" aria-checked="false">7</button>
+          <button type="button" role="radio" aria-checked="false">8</button>
+          <button type="button" role="radio" aria-checked="false">9</button>
+          <button type="button" role="radio" aria-checked="true">10</button>
+          <button type="button" role="radio" aria-checked="false">11</button>
+          <button type="button" role="radio" aria-checked="false">12</button>
+          <button type="button" role="radio" aria-checked="false">13</button>
+        </div>
+        <button type="button" class="cta-button" id="add-to-bag">Add size 10 to bag</button>
+        <p class="cta-status" id="cta-status" role="status" aria-live="polite"></p>
+      </div>
+      <figure class="cta-product">
+        <img src="assets/pair.jpg" alt="Ember High pair in red, white and black leather" width="900" height="540">
+      </figure>
+    </section>
+
+  </main>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

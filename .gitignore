@@ -1,0 +1,12 @@
+node_modules/
+temporary screenshots/
+.tmp/
+.env
+credentials.json
+token.json
+Generated Image*.jpg
+Generated Video*.mp4
+CLAUDE.md
+frontend-website-rules.md
+video to website skill.md
+screenshot.mjs
